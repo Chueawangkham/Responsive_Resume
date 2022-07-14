@@ -59,9 +59,10 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
 flutter_icons:
-  image_path: 'assets/images/worker1.png'
+  android: "launcher_icon"
+  image_path: "assets/images/worker1.png"
   ios: true
-  android: true
+  
   # example:
   # fonts:
   #   - family: Schyler
