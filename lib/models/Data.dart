@@ -21,6 +21,6 @@ final List<Data> demo_Data = [
   ),
   Data(
     date: "",
-    text: "Hello my name is bass. I'm ..KUNCHAI",
+    text: "Hello my name is bass. I'm ..",
   ),
 ];
