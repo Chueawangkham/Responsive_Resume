@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -6,6 +8,8 @@ import 'area_info_text.dart';
 import 'my_info.dart';
 import 'skills.dart';
 //import 'dart:js' as js;
+import 'package:url_launcher/url_launcher.dart';
+import 'dart:io';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
@@ -165,10 +169,7 @@ class Software extends StatelessWidget {
         ),
         Expanded(
           child: IconButton(
-            onPressed: () {
-              // js.context
-              //     .callMethod('open', ['https://github.com/Chueawangkham'],);
-            },
+            onPressed: () => _launchURL('https://github.com/Chueawangkham'),
             icon: SvgPicture.asset("assets/icons/github.svg"),
           ),
         ),
@@ -201,14 +202,9 @@ class GraphicDesign extends StatelessWidget {
                     SvgPicture.asset("assets/icons/icons8-adobe-photoshop.svg"),
               ),
               IconButton(
-                onPressed: () {
-                  // js.context.callMethod(
-                  //   'open',
-                  //   [
-                  //     'https://xd.adobe.com/view/d5e278d3-0ffb-464a-b5e0-100d62d46993-80b1/screen/38132e23-aa9e-4967-b50b-2323efac52eb?fullscreen&hints=off'
-                  //   ],
-                  // );
-                },
+                onPressed: () => _launchURL(
+                    'https://xd.adobe.com/view/d5e278d3-0ffb-464a-b5e0-100d62d46993-80b1/screen/38132e23-aa9e-4967-b50b-2323efac52eb?fullscreen&hints=off'),
+                //
                 icon: SvgPicture.asset("assets/icons/icons8-adobe-xd.svg"),
               ),
               IconButton(
@@ -222,4 +218,8 @@ class GraphicDesign extends StatelessWidget {
       ),
     );
   }
+}
+
+void _launchURL(url) async {
+  await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
 }

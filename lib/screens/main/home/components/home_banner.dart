@@ -5,6 +5,8 @@ import 'package:flutter_profile/constants.dart';
 //import 'package:js/js.dart';
 
 import 'package:flutter_profile/responsive.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'dart:io';
 
 class HomeBanner extends StatelessWidget {
   const HomeBanner({
@@ -65,27 +67,55 @@ class ContactButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 35,
-      width: 150,
-      decoration: const BoxDecoration(
-        //color: Color(0xff10141c),
-        color: Color(0xff69e77f),
-        borderRadius: BorderRadius.all(
-          Radius.circular(10.0),
-        ),
-      ),
-      child: TextButton(
-        onPressed: () {},
-        child: Text(
-          "Contact Now",
-          style: TextStyle(
-            color: Color(0xff10141c),
-            //color: Color(0xff69e77f),
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          height: 35,
+          width: 150,
+          decoration: const BoxDecoration(
+            //color: Color(0xff10141c),
+            color: Color(0xff69e77f),
+            borderRadius: BorderRadius.all(
+              Radius.circular(10.0),
+            ),
+          ),
+          child: TextButton(
+            onPressed: () => _sendEmail(),
+            child: Text(
+              "Contact Now",
+              style: TextStyle(
+                color: Color(0xff10141c),
+                //color: Color(0xff69e77f),
+              ),
+            ),
           ),
         ),
-      ),
+      ],
     );
+  }
+
+  void _launchURL(url) async {
+    await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
+  }
+
+  void _sendEmail() {
+    final Uri emailLaunchUri = Uri(
+      scheme: 'mailto',
+      path: 'thibess091@gmail.com',
+      query: encodeQueryParameters(<String, String>{
+        'subject': 'Hi Bass!',
+        'body': 'I saw your profile online and wanted to reach out!'
+      }),
+    );
+    _launchURL(emailLaunchUri.toString());
+  }
+
+  String? encodeQueryParameters(Map<String, String> params) {
+    return params.entries
+        .map((e) =>
+            '${Uri.encodeComponent(e.key)}=${Uri.encodeComponent(e.value)}')
+        .join('&');
   }
 }
 
@@ -165,3 +195,21 @@ class FlutterCodeText extends StatelessWidget {
     );
   }
 }
+
+
+
+// class OpenUrl extends StatelessWidget {
+//   const OpenUrl({Key? key}) : super(key: key);
+
+//   _launchURLBrowser() async {
+//     const url = 'https://flutterdevs.com/';
+//     if (await canLaunch(url)) {
+//       await launch(url);
+//     } else {
+//       throw 'Could not launch $url';
+//     }
+//   }
+
+//   @override
+//   Widget build(BuildContext context) {}
+// }

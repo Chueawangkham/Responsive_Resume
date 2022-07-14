@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
-import 'package:flutter_profile/models/Recommendation.dart';
+import 'package:flutter_profile/models/Data.dart';
 
 class Attitude extends StatelessWidget {
   const Attitude({
@@ -28,7 +28,7 @@ class Attitude extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  demo_recommendations[3].text!,
+                  demo_Data[3].text!,
                   maxLines: 4,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(height: 1.5),
