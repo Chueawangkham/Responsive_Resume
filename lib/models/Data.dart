@@ -16,7 +16,7 @@ final List<Data> demo_Data = [
         "Internship at the ICT Skills and Learning Center, Khon Kaen Municipality.",
   ),
   Data(
-    date: "July 5, 2021 - April 22, 2022123",
+    date: "July 5, 2021 - April 22, 2022",
     text: "IT Support,Helpdesk and Administrator at Siam Nissan Nakhon Phanom.",
   ),
   Data(
