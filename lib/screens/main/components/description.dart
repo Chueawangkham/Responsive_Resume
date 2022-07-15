@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
 import 'package:flutter_profile/models/Data.dart';
-import 'package:flutter_profile/responsive.dart';
 
 class Date extends StatelessWidget {
   const Date({

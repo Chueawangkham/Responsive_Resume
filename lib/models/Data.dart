@@ -4,6 +4,7 @@ class Data {
   Data({this.date, this.text});
 }
 
+// ignore: non_constant_identifier_names
 final List<Data> demo_Data = [
   Data(
     date: "July 5, 2017 - April 22, 2021",

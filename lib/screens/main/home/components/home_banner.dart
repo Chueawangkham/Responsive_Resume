@@ -1,12 +1,11 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
-// import 'dart:js' as js;
-//import 'package:js/js.dart';
 
 import 'package:flutter_profile/responsive.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'dart:io';
 
 class HomeBanner extends StatelessWidget {
   const HomeBanner({

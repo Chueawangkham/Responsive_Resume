@@ -7,9 +7,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'area_info_text.dart';
 import 'my_info.dart';
 import 'skills.dart';
-//import 'dart:js' as js;
 import 'package:url_launcher/url_launcher.dart';
-import 'dart:io';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({

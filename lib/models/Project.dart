@@ -4,6 +4,7 @@ class Project {
   Project({this.title, this.description});
 }
 
+// ignore: non_constant_identifier_names
 List<Project> demo_projects = [
   Project(
     title: "Responsive Admin Panel or Dashboard - Flutter UI",
