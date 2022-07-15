@@ -1,6 +1,6 @@
 # Responsive Resume - Flutter UI
 
-## [Resume](https://chueawangkham.github.io/Resume/)
+## [Resume]()
 
 **ช่องทางติดต่อ:**
 
