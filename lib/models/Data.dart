@@ -22,6 +22,7 @@ final List<Data> demo_Data = [
   ),
   Data(
     date: "",
-    text: "Hello my name is bass. I'm ",
+    text:
+        "I am interested in studying and developing cross-platform applications and Flutter is the framework that I have chosen to pay attention. The reason that I am interested in this because I can create complied app that has high quality for IOS and Android without writing the code in each app. The enthusiasm makes me to be confident that I really like it and that can reach me to a good developer. I have searched the information by myself, tried to do it, practice and improve. One day I will be good at it. I have a dream about making my own application, but the thing that I lack is experience in facing the problem and solving it. I expected that you will see my efforts and give me an opportunity. Thank you so much.",
   ),
 ];

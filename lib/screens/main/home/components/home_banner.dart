@@ -156,7 +156,7 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "reponsive web and mobile app.",
+          "Login Page",
           speed: Duration(milliseconds: 30),
         ),
         TyperAnimatedText(
@@ -164,7 +164,7 @@ class AnimatedText extends StatelessWidget {
           speed: Duration(milliseconds: 30),
         ),
         TyperAnimatedText(
-          "Chat app with dark and light theme.",
+          "reponsive web and mobile app.",
           speed: Duration(milliseconds: 30),
         ),
       ],

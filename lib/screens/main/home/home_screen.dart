@@ -32,7 +32,7 @@ class HomeScreen extends StatelessWidget {
         Divider(
           thickness: 1.5,
         ),
-        Attitude(),
+        Aboutme(),
       ],
     );
   }

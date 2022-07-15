@@ -7,18 +7,18 @@ class Project {
 // ignore: non_constant_identifier_names
 List<Project> demo_projects = [
   Project(
-    title: "Responsive Admin Panel or Dashboard - Flutter UI",
+    title: "Responsive Resume - Flutter UI",
     description:
-        "On Flutter V2.* web officially supported on a stable branch. Today I share an Admin panel or you can call it dashboard UI build with flutter. Now you can build your app dashboard using flutter. This dashboard contains almost everything that you need like a chart, table, nice small card for showing info.",
+        "I don't have a lot of project Flutter because I am just starting to learn. Web Application that you are opening is one of those. It can be opened with flutter responsive on everywhere on the phone, Tap or Web. I chose to try creating it. I created it in order to tell that I can do it. Even though it is easy, I confirm that it is harder than describing my ability into one paper. It is a place to collect my work in the future.",
   ),
   Project(
     title: "Instagram Clone - Flutter UI",
     description:
-        "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
+        "It's one of the project flutters I use to practice my skills and get used to it. Aligning the layout of the mobile screen and try to connect to Firebase to add data and retrieve that data to display on the Application.",
   ),
   Project(
-    title: "Outlook Email App Redesign - Flutter Fully Responsive Design UI",
+    title: "Login Page - Flutter UI",
     description:
-        "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
+        "This is an application that I will create in the future, but I don’t finish designing. There is an only login page.",
   ),
 ];

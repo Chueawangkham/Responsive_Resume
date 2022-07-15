@@ -1,12 +1,11 @@
-# Responsive and Animated Portfolio Website & App - Flutter UI
+# Responsive Resume - Flutter UI
 
-## [Watch it on YouTube](https://youtu.be/G_ZIJseX6AU)
+## [Resume](https://chueawangkham.github.io/Resume/)
 
-**Packages we are using:**
+**ช่องทางติดต่อ:**
 
-- flutter_svg: [link](https://pub.dev/packages/flutter_svg)
-- goole_fonts: [link](https://pub.dev/packages/google_fonts)
-- animated_text_kit: [link](https://pub.dev/packages/animated_text_kit)
+- Line: [link](https://line.me/ti/p/j1dRd-G-45?fbclid=IwAR0QuOya2V4srQVhp7_7N0Zk8IRSco41Csis_Jij91fWQyxCl3mBh6FiqRY)
+- Email: Thibess091@Gmail.com
 
 **Fonts**
 

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
 import 'package:flutter_profile/models/Data.dart';
 
-class Attitude extends StatelessWidget {
-  const Attitude({
+class Aboutme extends StatelessWidget {
+  const Aboutme({
     Key? key,
   }) : super(key: key);
 
@@ -15,7 +15,7 @@ class Attitude extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            "Attitude",
+            "About me",
             style: Theme.of(context).textTheme.headline6,
           ),
           SizedBox(
@@ -29,7 +29,7 @@ class Attitude extends StatelessWidget {
               children: [
                 Text(
                   demo_Data[3].text!,
-                  maxLines: 4,
+                  maxLines: 30,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(height: 1.5),
                 ),
