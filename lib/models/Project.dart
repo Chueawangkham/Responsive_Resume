@@ -20,19 +20,4 @@ List<Project> demo_projects = [
     description:
         "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
   ),
-  // Project(
-  //   title: "Chat/Messaging App Light and Dark Theme - Flutter UI",
-  //   description:
-  //       "Major: Computer Engineering,   Degree: Bachelor of Engineering (B.Eng.)  at Faculty of Engineering Nakhon Phanom University, (GPA 3.31)",
-  // ),
-  // Project(
-  //   title: "Welcome page, Login Page and Sign up page - Flutter UI",
-  //   description:
-  //       "In the first part of our complete e-commerce app, we show you how you can create a nice clean onboarding screen for your e-commerce app that can run both Andriod and iOS devices because it builds with flutter. Then on the second episode, we build a Sign in, Forgot Password screen with a custom error indicator.",
-  // ),
-  // Project(
-  //   title: "Connection_Damo App The Future- Flutter UI",
-  //   description:
-  //       "We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.",
-  // ),
 ];
