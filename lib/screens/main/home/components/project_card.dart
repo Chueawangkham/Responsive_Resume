@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_profile/constants.dart';
 import 'package:flutter_profile/models/Project.dart';
 import 'package:flutter_profile/responsive.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class ProjectCard extends StatelessWidget {
   const ProjectCard({
@@ -42,7 +44,8 @@ class ProjectCard extends StatelessWidget {
               ),
             ),
             child: TextButton(
-              onPressed: () {},
+              onPressed: () => _launchURL(
+                  'https://github.com/Chueawangkham/Responsive_Resume'),
               child: Text(
                 "Read More>>",
                 style: TextStyle(
@@ -55,4 +58,8 @@ class ProjectCard extends StatelessWidget {
       ),
     );
   }
+}
+
+void _launchURL(url) async {
+  await canLaunch(url) ? await launch(url) : throw 'Could not launch $url';
 }
