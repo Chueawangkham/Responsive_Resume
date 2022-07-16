@@ -8,10 +8,10 @@ It is a place to collect my work in the future.
 
 [![Screenshot-2022-07-16-095522.png](https://i.postimg.cc/43dw1XNM/Screenshot-2022-07-16-095522.png)](https://postimg.cc/FYMjr5Sg)
 
-## [Android App](https://drive.google.com/file/d/14P6zF5XLw9Cd4tSy3VRf5bI302itgiAb/view?usp=sharing)
+## [Android App](https://drive.google.com/file/d/1u0nxuzXEacZGpMlBUEJUbu8MkCkyQlWR/view?usp=sharing)
 
 If you open it with an android mobile phone, this is an APK file to install the application on your mobile.
-- https://drive.google.com/file/d/14P6zF5XLw9Cd4tSy3VRf5bI302itgiAb/view?usp=sharing
+- https://drive.google.com/file/d/1u0nxuzXEacZGpMlBUEJUbu8MkCkyQlWR/view?usp=sharing
 
  [![Screenshot-2022-07-16-0220066.png](https://i.postimg.cc/fLvc4FLX/Screenshot-2022-07-16-0220066.png)](https://postimg.cc/Fd7d3T0s)
  [![Screenshot-2022-07-16-0219433.png](https://i.postimg.cc/cCH8pLPy/Screenshot-2022-07-16-0219433.png)](https://postimg.cc/1nkt6s9J)
