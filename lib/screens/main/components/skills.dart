@@ -16,7 +16,7 @@ class Skills extends StatelessWidget {
           child: Padding(
             padding: const EdgeInsets.all(3.0),
             child: Text(
-              "Skillss",
+              "Skills",
               style: Theme.of(context).textTheme.subtitle2,
             ),
           ),
